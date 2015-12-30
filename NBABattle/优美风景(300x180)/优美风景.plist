@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imageInfo</key>
+		<string>艾弗森01</string>
+		<key>imageName</key>
+		<string>艾弗森01.png</string>
+	</dict>
+	<dict>
+		<key>imageInfo</key>
+		<string>艾弗森02</string>
+		<key>imageName</key>
+		<string>艾弗森02.png</string>
+	</dict>
+	<dict>
+		<key>imageInfo</key>
+		<string>艾弗森03</string>
+		<key>imageName</key>
+		<string>艾弗森03.png</string>
+	</dict>
+	<dict>
+		<key>imageInfo</key>
+		<string>艾弗森04</string>
+		<key>imageName</key>
+		<string>艾弗森04.png</string>
+	</dict>
+	<dict>
+		<key>imageInfo</key>
+		<string>艾弗森05</string>
+		<key>imageName</key>
+		<string>艾弗森05.png</string>
+	</dict>
+	<dict>
+		<key>imageInfo</key>
+		<string>艾弗森06</string>
+		<key>imageName</key>
+		<string>艾弗森06.png</string>
+	</dict>
+	<dict>
+		<key>imageInfo</key>
+		<string>艾弗森07</string>
+		<key>imageName</key>
+		<string>艾弗森07.png</string>
+	</dict>
+	<dict>
+		<key>imageInfo</key>
+		<string>艾弗森08</string>
+		<key>imageName</key>
+		<string>艾弗森08.png</string>
+	</dict>
+	<dict>
+		<key>imageInfo</key>
+		<string>艾弗森09</string>
+		<key>imageName</key>
+		<string>艾弗森09.png</string>
+	</dict>
+	<dict>
+		<key>imageInfo</key>
+		<string>艾弗森10</string>
+		<key>imageName</key>
+		<string>艾弗森10.png</string>
+	</dict>
+</array>
+</plist>

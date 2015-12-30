@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface BallSkimViewController : UIViewController
+- (instancetype)initWithImageNames:(NSArray *)imageNames index:(NSInteger)index;
 
 @end

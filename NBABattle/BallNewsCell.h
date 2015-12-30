@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BallNewsModel.h"
 
 @interface BallNewsCell : UITableViewCell
+
+- (void)initWithDataWith:(DataModel *)model;
+
 
 @end

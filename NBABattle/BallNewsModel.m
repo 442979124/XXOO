@@ -8,6 +8,14 @@
 
 #import "BallNewsModel.h"
 
+@implementation DataModel
+@end
+
+
+@implementation ResultModel
+@end
+
+
 @implementation BallNewsModel
 
 @end

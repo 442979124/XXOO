@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC4C3AF41C20F09E006E02D9 /* 点击效果@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4C3AF31C20F09E006E02D9 /* 点击效果@2x.png */; };
+		BC4C3AF61C20F0E2006E02D9 /* 点击效果.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4C3AF51C20F0E1006E02D9 /* 点击效果.png */; };
+		BC4C3AF81C20F25C006E02D9 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4C3AF71C20F25C006E02D9 /* ball.png */; };
+		BC4C3AFA1C20F2F7006E02D9 /* lanqiu.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4C3AF91C20F2F6006E02D9 /* lanqiu.png */; };
+		BC4C3BCC1C210638006E02D9 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4C3BCB1C210638006E02D9 /* UIView+Common.m */; };
 		BC51244F1C1F9EE4006EEBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51244E1C1F9EE4006EEBBE /* main.m */; };
 		BC5124521C1F9EE4006EEBBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124511C1F9EE4006EEBBE /* AppDelegate.m */; };
 		BC5124551C1F9EE4006EEBBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124541C1F9EE4006EEBBE /* ViewController.m */; };
@@ -15,6 +20,81 @@
 		BC51245D1C1F9EE4006EEBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC51245B1C1F9EE4006EEBBE /* LaunchScreen.storyboard */; };
 		BC5124681C1F9EE4006EEBBE /* NBABattleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124671C1F9EE4006EEBBE /* NBABattleTests.m */; };
 		BC5124731C1F9EE4006EEBBE /* NBABattleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124721C1F9EE4006EEBBE /* NBABattleUITests.m */; };
+		BC5124821C1F9F28006EEBBE /* BallBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124811C1F9F28006EEBBE /* BallBaseViewController.m */; };
+		BC5124851C1F9F37006EEBBE /* BallGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124841C1F9F37006EEBBE /* BallGameViewController.m */; };
+		BC5124881C1F9F47006EEBBE /* BallNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124871C1F9F47006EEBBE /* BallNewsViewController.m */; };
+		BC51248B1C1F9F60006EEBBE /* BallPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51248A1C1F9F60006EEBBE /* BallPictureViewController.m */; };
+		BC51248E1C1F9F77006EEBBE /* BallAmuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51248D1C1F9F77006EEBBE /* BallAmuseViewController.m */; };
+		BC5124901C1FA01E006EEBBE /* nba4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC51248F1C1FA01E006EEBBE /* nba4.png */; };
+		BC5124921C1FA0FC006EEBBE /* nbadaohang.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5124911C1FA0FC006EEBBE /* nbadaohang.png */; };
+		BC5124941C1FA1AB006EEBBE /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC5124931C1FA1AB006EEBBE /* back.jpg */; };
+		BC5124981C1FA35C006EEBBE /* BallNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124971C1FA35C006EEBBE /* BallNewsModel.m */; };
+		BC51249B1C1FA379006EEBBE /* BallNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51249A1C1FA379006EEBBE /* BallNewsCell.m */; };
+		BC5124E91C20073D006EEBBE /* nba5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5124E81C20073D006EEBBE /* nba5.png */; };
+		BC5124EB1C2009FB006EEBBE /* nba6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5124EA1C2009FB006EEBBE /* nba6.png */; };
+		BC5124ED1C200FBF006EEBBE /* nba7.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5124EC1C200FBE006EEBBE /* nba7.png */; };
+		BC5124F01C2015D9006EEBBE /* BallSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124EF1C2015D8006EEBBE /* BallSubjectViewController.m */; };
+		BC5124F21C20276F006EEBBE /* 艾弗森02.png in Resources */ = {isa = PBXBuildFile; fileRef = BC5124F11C20276F006EEBBE /* 艾弗森02.png */; };
+		BC5124F51C202D44006EEBBE /* FeiJiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124F41C202D44006EEBBE /* FeiJiViewController.m */; };
+		BC5124F81C202D58006EEBBE /* DIShuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124F71C202D58006EEBBE /* DIShuViewController.m */; };
+		BC5124FB1C202D66006EEBBE /* PinTuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5124FA1C202D66006EEBBE /* PinTuViewController.m */; };
+		BC77C12B1C203B3100C2EC92 /* 艾弗森01.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1221C203B3100C2EC92 /* 艾弗森01.png */; };
+		BC77C12C1C203B3100C2EC92 /* 艾弗森03.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1231C203B3100C2EC92 /* 艾弗森03.png */; };
+		BC77C12D1C203B3100C2EC92 /* 艾弗森04.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1241C203B3100C2EC92 /* 艾弗森04.png */; };
+		BC77C12E1C203B3100C2EC92 /* 艾弗森05.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1251C203B3100C2EC92 /* 艾弗森05.png */; };
+		BC77C12F1C203B3100C2EC92 /* 艾弗森06.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1261C203B3100C2EC92 /* 艾弗森06.png */; };
+		BC77C1301C203B3100C2EC92 /* 艾弗森07.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1271C203B3100C2EC92 /* 艾弗森07.png */; };
+		BC77C1311C203B3100C2EC92 /* 艾弗森08.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1281C203B3100C2EC92 /* 艾弗森08.png */; };
+		BC77C1321C203B3100C2EC92 /* 艾弗森09.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1291C203B3100C2EC92 /* 艾弗森09.png */; };
+		BC77C1331C203B3100C2EC92 /* 艾弗森10.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C12A1C203B3100C2EC92 /* 艾弗森10.png */; };
+		BC77C1361C203B6400C2EC92 /* BallBasePicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC77C1351C203B6400C2EC92 /* BallBasePicViewController.m */; };
+		BC77C1581C203CCF00C2EC92 /* 优美风景.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1381C203CCF00C2EC92 /* 优美风景.plist */; };
+		BC77C17A1C203EE200C2EC92 /* BallSkimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC77C1791C203EE100C2EC92 /* BallSkimViewController.m */; };
+		BC77C18B1C20470200C2EC92 /* 科比01.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C17C1C20470200C2EC92 /* 科比01.png */; };
+		BC77C18C1C20470200C2EC92 /* 科比02.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C17D1C20470200C2EC92 /* 科比02.png */; };
+		BC77C18D1C20470200C2EC92 /* 科比03.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C17E1C20470200C2EC92 /* 科比03.png */; };
+		BC77C18E1C20470200C2EC92 /* 科比04.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C17F1C20470200C2EC92 /* 科比04.png */; };
+		BC77C18F1C20470200C2EC92 /* 科比05.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1801C20470200C2EC92 /* 科比05.png */; };
+		BC77C1901C20470200C2EC92 /* 科比06.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1811C20470200C2EC92 /* 科比06.png */; };
+		BC77C1911C20470200C2EC92 /* 科比07.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1821C20470200C2EC92 /* 科比07.png */; };
+		BC77C1921C20470200C2EC92 /* 科比08.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1831C20470200C2EC92 /* 科比08.png */; };
+		BC77C1931C20470200C2EC92 /* 科比09.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1841C20470200C2EC92 /* 科比09.png */; };
+		BC77C1941C20470200C2EC92 /* 科比10.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1851C20470200C2EC92 /* 科比10.png */; };
+		BC77C1951C20470200C2EC92 /* 科比11.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1861C20470200C2EC92 /* 科比11.png */; };
+		BC77C1961C20470200C2EC92 /* 科比12.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1871C20470200C2EC92 /* 科比12.png */; };
+		BC77C1971C20470200C2EC92 /* 科比13.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1881C20470200C2EC92 /* 科比13.png */; };
+		BC77C1981C20470200C2EC92 /* 科比14.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1891C20470200C2EC92 /* 科比14.png */; };
+		BC77C1991C20470200C2EC92 /* 科比15.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C18A1C20470200C2EC92 /* 科比15.png */; };
+		BC77C19B1C20479900C2EC92 /* 名车荟萃.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC77C19A1C20479900C2EC92 /* 名车荟萃.plist */; };
+		BC77C1B11C204B5400C2EC92 /* 乔丹01.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C19D1C204B5400C2EC92 /* 乔丹01.png */; };
+		BC77C1B21C204B5400C2EC92 /* 乔丹02.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C19E1C204B5400C2EC92 /* 乔丹02.png */; };
+		BC77C1B31C204B5400C2EC92 /* 乔丹03.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C19F1C204B5400C2EC92 /* 乔丹03.png */; };
+		BC77C1B41C204B5400C2EC92 /* 乔丹04.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1A01C204B5400C2EC92 /* 乔丹04.png */; };
+		BC77C1B51C204B5400C2EC92 /* 乔丹05.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1A11C204B5400C2EC92 /* 乔丹05.png */; };
+		BC77C1B61C204B5400C2EC92 /* 乔丹06.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1A21C204B5400C2EC92 /* 乔丹06.png */; };
+		BC77C1B71C204B5400C2EC92 /* 乔丹07.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1A31C204B5400C2EC92 /* 乔丹07.png */; };
+		BC77C1B81C204B5400C2EC92 /* 乔丹08.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1A41C204B5400C2EC92 /* 乔丹08.png */; };
+		BC77C1B91C204B5400C2EC92 /* 乔丹09.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1A51C204B5400C2EC92 /* 乔丹09.png */; };
+		BC77C1BA1C204B5400C2EC92 /* 乔丹10.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1A61C204B5400C2EC92 /* 乔丹10.png */; };
+		BC77C1BB1C204B5400C2EC92 /* 乔丹11.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1A71C204B5400C2EC92 /* 乔丹11.png */; };
+		BC77C1BC1C204B5400C2EC92 /* 乔丹12.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1A81C204B5400C2EC92 /* 乔丹12.png */; };
+		BC77C1BD1C204B5400C2EC92 /* 乔丹13.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1A91C204B5400C2EC92 /* 乔丹13.png */; };
+		BC77C1BE1C204B5400C2EC92 /* 乔丹14.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1AA1C204B5400C2EC92 /* 乔丹14.png */; };
+		BC77C1BF1C204B5400C2EC92 /* 乔丹15.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1AB1C204B5400C2EC92 /* 乔丹15.png */; };
+		BC77C1C01C204B5400C2EC92 /* 乔丹16.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1AC1C204B5400C2EC92 /* 乔丹16.png */; };
+		BC77C1C11C204B5400C2EC92 /* 乔丹17.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1AD1C204B5400C2EC92 /* 乔丹17.png */; };
+		BC77C1C21C204B5400C2EC92 /* 乔丹18.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1AE1C204B5400C2EC92 /* 乔丹18.png */; };
+		BC77C1C31C204B5400C2EC92 /* 乔丹19.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1AF1C204B5400C2EC92 /* 乔丹19.png */; };
+		BC77C1C41C204B5400C2EC92 /* 乔丹20.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1B01C204B5400C2EC92 /* 乔丹20.png */; };
+		BC77C1C61C204B7100C2EC92 /* 人物写真.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1C51C204B7100C2EC92 /* 人物写真.plist */; };
+		BC77C1C81C204D4A00C2EC92 /* nba8.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1C71C204D4A00C2EC92 /* nba8.png */; };
+		BC77C1CA1C2050AB00C2EC92 /* nba9.png in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1C91C2050AB00C2EC92 /* nba9.png */; };
+		BC77C1CC1C205D2E00C2EC92 /* myGirl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1CB1C205D2E00C2EC92 /* myGirl.jpg */; };
+		BC77C1CE1C205D3700C2EC92 /* 2_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1CD1C205D3700C2EC92 /* 2_6.jpg */; };
+		BC77C1D01C2061AC00C2EC92 /* kebi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1CF1C2061AB00C2EC92 /* kebi.jpg */; };
+		BC77C1D21C20630200C2EC92 /* kebi24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC77C1D11C20630200C2EC92 /* kebi24.jpg */; };
+		BCB0A78D1C33C012006E1252 /* HGGGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0A78C1C33C012006E1252 /* HGGGTableViewCell.m */; };
+		DEAD4D17FC7556875B8DED85 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C31D4046E63A7B5E83E726 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +115,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A6CDD5B9B9CB50A52C70420 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B17E180EF8DE9A4497659569 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BC4C3AF31C20F09E006E02D9 /* 点击效果@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点击效果@2x.png"; sourceTree = "<group>"; };
+		BC4C3AF51C20F0E1006E02D9 /* 点击效果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点击效果.png"; sourceTree = "<group>"; };
+		BC4C3AF71C20F25C006E02D9 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		BC4C3AF91C20F2F6006E02D9 /* lanqiu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lanqiu.png; sourceTree = "<group>"; };
+		BC4C3BCA1C210638006E02D9 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		BC4C3BCB1C210638006E02D9 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
 		BC51244A1C1F9EE4006EEBBE /* NBABattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBABattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC51244E1C1F9EE4006EEBBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC5124501C1F9EE4006EEBBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +139,95 @@
 		BC51246E1C1F9EE4006EEBBE /* NBABattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBABattleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5124721C1F9EE4006EEBBE /* NBABattleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBABattleUITests.m; sourceTree = "<group>"; };
 		BC5124741C1F9EE4006EEBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5124801C1F9F28006EEBBE /* BallBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallBaseViewController.h; sourceTree = "<group>"; };
+		BC5124811C1F9F28006EEBBE /* BallBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallBaseViewController.m; sourceTree = "<group>"; };
+		BC5124831C1F9F37006EEBBE /* BallGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallGameViewController.h; sourceTree = "<group>"; };
+		BC5124841C1F9F37006EEBBE /* BallGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallGameViewController.m; sourceTree = "<group>"; };
+		BC5124861C1F9F47006EEBBE /* BallNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallNewsViewController.h; sourceTree = "<group>"; };
+		BC5124871C1F9F47006EEBBE /* BallNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallNewsViewController.m; sourceTree = "<group>"; };
+		BC5124891C1F9F60006EEBBE /* BallPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallPictureViewController.h; sourceTree = "<group>"; };
+		BC51248A1C1F9F60006EEBBE /* BallPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallPictureViewController.m; sourceTree = "<group>"; };
+		BC51248C1C1F9F77006EEBBE /* BallAmuseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallAmuseViewController.h; sourceTree = "<group>"; };
+		BC51248D1C1F9F77006EEBBE /* BallAmuseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallAmuseViewController.m; sourceTree = "<group>"; };
+		BC51248F1C1FA01E006EEBBE /* nba4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nba4.png; sourceTree = "<group>"; };
+		BC5124911C1FA0FC006EEBBE /* nbadaohang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nbadaohang.png; sourceTree = "<group>"; };
+		BC5124931C1FA1AB006EEBBE /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		BC5124961C1FA35C006EEBBE /* BallNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallNewsModel.h; sourceTree = "<group>"; };
+		BC5124971C1FA35C006EEBBE /* BallNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallNewsModel.m; sourceTree = "<group>"; };
+		BC5124991C1FA379006EEBBE /* BallNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallNewsCell.h; sourceTree = "<group>"; };
+		BC51249A1C1FA379006EEBBE /* BallNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallNewsCell.m; sourceTree = "<group>"; };
+		BC5124E81C20073D006EEBBE /* nba5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nba5.png; sourceTree = "<group>"; };
+		BC5124EA1C2009FB006EEBBE /* nba6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nba6.png; sourceTree = "<group>"; };
+		BC5124EC1C200FBE006EEBBE /* nba7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nba7.png; sourceTree = "<group>"; };
+		BC5124EE1C2015D8006EEBBE /* BallSubjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallSubjectViewController.h; sourceTree = "<group>"; };
+		BC5124EF1C2015D8006EEBBE /* BallSubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallSubjectViewController.m; sourceTree = "<group>"; };
+		BC5124F11C20276F006EEBBE /* 艾弗森02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "艾弗森02.png"; path = "../艾弗森02.png"; sourceTree = "<group>"; };
+		BC5124F31C202D44006EEBBE /* FeiJiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeiJiViewController.h; sourceTree = "<group>"; };
+		BC5124F41C202D44006EEBBE /* FeiJiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeiJiViewController.m; sourceTree = "<group>"; };
+		BC5124F61C202D58006EEBBE /* DIShuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIShuViewController.h; sourceTree = "<group>"; };
+		BC5124F71C202D58006EEBBE /* DIShuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIShuViewController.m; sourceTree = "<group>"; };
+		BC5124F91C202D66006EEBBE /* PinTuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinTuViewController.h; sourceTree = "<group>"; };
+		BC5124FA1C202D66006EEBBE /* PinTuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinTuViewController.m; sourceTree = "<group>"; };
+		BC77C1221C203B3100C2EC92 /* 艾弗森01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾弗森01.png"; sourceTree = "<group>"; };
+		BC77C1231C203B3100C2EC92 /* 艾弗森03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾弗森03.png"; sourceTree = "<group>"; };
+		BC77C1241C203B3100C2EC92 /* 艾弗森04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾弗森04.png"; sourceTree = "<group>"; };
+		BC77C1251C203B3100C2EC92 /* 艾弗森05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾弗森05.png"; sourceTree = "<group>"; };
+		BC77C1261C203B3100C2EC92 /* 艾弗森06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾弗森06.png"; sourceTree = "<group>"; };
+		BC77C1271C203B3100C2EC92 /* 艾弗森07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾弗森07.png"; sourceTree = "<group>"; };
+		BC77C1281C203B3100C2EC92 /* 艾弗森08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾弗森08.png"; sourceTree = "<group>"; };
+		BC77C1291C203B3100C2EC92 /* 艾弗森09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾弗森09.png"; sourceTree = "<group>"; };
+		BC77C12A1C203B3100C2EC92 /* 艾弗森10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾弗森10.png"; sourceTree = "<group>"; };
+		BC77C1341C203B6400C2EC92 /* BallBasePicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallBasePicViewController.h; sourceTree = "<group>"; };
+		BC77C1351C203B6400C2EC92 /* BallBasePicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallBasePicViewController.m; sourceTree = "<group>"; };
+		BC77C1381C203CCF00C2EC92 /* 优美风景.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "优美风景.plist"; path = "../优美风景(300x180)/优美风景.plist"; sourceTree = "<group>"; };
+		BC77C1781C203EE100C2EC92 /* BallSkimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallSkimViewController.h; sourceTree = "<group>"; };
+		BC77C1791C203EE100C2EC92 /* BallSkimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallSkimViewController.m; sourceTree = "<group>"; };
+		BC77C17C1C20470200C2EC92 /* 科比01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比01.png"; sourceTree = "<group>"; };
+		BC77C17D1C20470200C2EC92 /* 科比02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比02.png"; sourceTree = "<group>"; };
+		BC77C17E1C20470200C2EC92 /* 科比03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比03.png"; sourceTree = "<group>"; };
+		BC77C17F1C20470200C2EC92 /* 科比04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比04.png"; sourceTree = "<group>"; };
+		BC77C1801C20470200C2EC92 /* 科比05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比05.png"; sourceTree = "<group>"; };
+		BC77C1811C20470200C2EC92 /* 科比06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比06.png"; sourceTree = "<group>"; };
+		BC77C1821C20470200C2EC92 /* 科比07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比07.png"; sourceTree = "<group>"; };
+		BC77C1831C20470200C2EC92 /* 科比08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比08.png"; sourceTree = "<group>"; };
+		BC77C1841C20470200C2EC92 /* 科比09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比09.png"; sourceTree = "<group>"; };
+		BC77C1851C20470200C2EC92 /* 科比10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比10.png"; sourceTree = "<group>"; };
+		BC77C1861C20470200C2EC92 /* 科比11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比11.png"; sourceTree = "<group>"; };
+		BC77C1871C20470200C2EC92 /* 科比12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比12.png"; sourceTree = "<group>"; };
+		BC77C1881C20470200C2EC92 /* 科比13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比13.png"; sourceTree = "<group>"; };
+		BC77C1891C20470200C2EC92 /* 科比14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比14.png"; sourceTree = "<group>"; };
+		BC77C18A1C20470200C2EC92 /* 科比15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "科比15.png"; sourceTree = "<group>"; };
+		BC77C19A1C20479900C2EC92 /* 名车荟萃.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "名车荟萃.plist"; sourceTree = "<group>"; };
+		BC77C19D1C204B5400C2EC92 /* 乔丹01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹01.png"; sourceTree = "<group>"; };
+		BC77C19E1C204B5400C2EC92 /* 乔丹02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹02.png"; sourceTree = "<group>"; };
+		BC77C19F1C204B5400C2EC92 /* 乔丹03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹03.png"; sourceTree = "<group>"; };
+		BC77C1A01C204B5400C2EC92 /* 乔丹04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹04.png"; sourceTree = "<group>"; };
+		BC77C1A11C204B5400C2EC92 /* 乔丹05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹05.png"; sourceTree = "<group>"; };
+		BC77C1A21C204B5400C2EC92 /* 乔丹06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹06.png"; sourceTree = "<group>"; };
+		BC77C1A31C204B5400C2EC92 /* 乔丹07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹07.png"; sourceTree = "<group>"; };
+		BC77C1A41C204B5400C2EC92 /* 乔丹08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹08.png"; sourceTree = "<group>"; };
+		BC77C1A51C204B5400C2EC92 /* 乔丹09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹09.png"; sourceTree = "<group>"; };
+		BC77C1A61C204B5400C2EC92 /* 乔丹10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹10.png"; sourceTree = "<group>"; };
+		BC77C1A71C204B5400C2EC92 /* 乔丹11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹11.png"; sourceTree = "<group>"; };
+		BC77C1A81C204B5400C2EC92 /* 乔丹12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹12.png"; sourceTree = "<group>"; };
+		BC77C1A91C204B5400C2EC92 /* 乔丹13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹13.png"; sourceTree = "<group>"; };
+		BC77C1AA1C204B5400C2EC92 /* 乔丹14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹14.png"; sourceTree = "<group>"; };
+		BC77C1AB1C204B5400C2EC92 /* 乔丹15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹15.png"; sourceTree = "<group>"; };
+		BC77C1AC1C204B5400C2EC92 /* 乔丹16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹16.png"; sourceTree = "<group>"; };
+		BC77C1AD1C204B5400C2EC92 /* 乔丹17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹17.png"; sourceTree = "<group>"; };
+		BC77C1AE1C204B5400C2EC92 /* 乔丹18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹18.png"; sourceTree = "<group>"; };
+		BC77C1AF1C204B5400C2EC92 /* 乔丹19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹19.png"; sourceTree = "<group>"; };
+		BC77C1B01C204B5400C2EC92 /* 乔丹20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乔丹20.png"; sourceTree = "<group>"; };
+		BC77C1C51C204B7100C2EC92 /* 人物写真.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "人物写真.plist"; path = "../艾弗森(280x420)/人物写真.plist"; sourceTree = "<group>"; };
+		BC77C1C71C204D4A00C2EC92 /* nba8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nba8.png; sourceTree = "<group>"; };
+		BC77C1C91C2050AB00C2EC92 /* nba9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nba9.png; sourceTree = "<group>"; };
+		BC77C1CB1C205D2E00C2EC92 /* myGirl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myGirl.jpg; sourceTree = "<group>"; };
+		BC77C1CD1C205D3700C2EC92 /* 2_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_6.jpg; sourceTree = "<group>"; };
+		BC77C1CF1C2061AB00C2EC92 /* kebi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kebi.jpg; sourceTree = "<group>"; };
+		BC77C1D11C20630200C2EC92 /* kebi24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kebi24.jpg; sourceTree = "<group>"; };
+		BCB0A78B1C33C012006E1252 /* HGGGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGGGTableViewCell.h; sourceTree = "<group>"; };
+		BCB0A78C1C33C012006E1252 /* HGGGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGGGTableViewCell.m; sourceTree = "<group>"; };
+		F5C31D4046E63A7B5E83E726 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +235,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEAD4D17FC7556875B8DED85 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +256,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AFF5EC341340D8EE1274B627 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A6CDD5B9B9CB50A52C70420 /* Pods.debug.xcconfig */,
+				B17E180EF8DE9A4497659569 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC5124411C1F9EE4006EEBBE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +272,8 @@
 				BC5124661C1F9EE4006EEBBE /* NBABattleTests */,
 				BC5124711C1F9EE4006EEBBE /* NBABattleUITests */,
 				BC51244B1C1F9EE4006EEBBE /* Products */,
+				AFF5EC341340D8EE1274B627 /* Pods */,
+				C2BB5F341D8C7D8CBBCF6F98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +290,48 @@
 		BC51244C1C1F9EE4006EEBBE /* NBABattle */ = {
 			isa = PBXGroup;
 			children = (
+				BC5124541C1F9EE4006EEBBE /* ViewController.m */,
 				BC5124501C1F9EE4006EEBBE /* AppDelegate.h */,
 				BC5124511C1F9EE4006EEBBE /* AppDelegate.m */,
 				BC5124531C1F9EE4006EEBBE /* ViewController.h */,
-				BC5124541C1F9EE4006EEBBE /* ViewController.m */,
+				BC5124801C1F9F28006EEBBE /* BallBaseViewController.h */,
+				BC5124811C1F9F28006EEBBE /* BallBaseViewController.m */,
+				BCB0A78B1C33C012006E1252 /* HGGGTableViewCell.h */,
+				BCB0A78C1C33C012006E1252 /* HGGGTableViewCell.m */,
+				BC51249C1C1FA37F006EEBBE /* Game */,
+				BC5124831C1F9F37006EEBBE /* BallGameViewController.h */,
+				BC5124841C1F9F37006EEBBE /* BallGameViewController.m */,
+				BC51249D1C1FA38D006EEBBE /* News */,
+				BC5124861C1F9F47006EEBBE /* BallNewsViewController.h */,
+				BC5124871C1F9F47006EEBBE /* BallNewsViewController.m */,
+				BC5124EE1C2015D8006EEBBE /* BallSubjectViewController.h */,
+				BC5124EF1C2015D8006EEBBE /* BallSubjectViewController.m */,
+				BC5124961C1FA35C006EEBBE /* BallNewsModel.h */,
+				BC5124971C1FA35C006EEBBE /* BallNewsModel.m */,
+				BC51249A1C1FA379006EEBBE /* BallNewsCell.m */,
+				BC5124991C1FA379006EEBBE /* BallNewsCell.h */,
+				BC51249E1C1FA392006EEBBE /* Pictures */,
+				BC5124891C1F9F60006EEBBE /* BallPictureViewController.h */,
+				BC51248A1C1F9F60006EEBBE /* BallPictureViewController.m */,
+				BC77C1341C203B6400C2EC92 /* BallBasePicViewController.h */,
+				BC77C1351C203B6400C2EC92 /* BallBasePicViewController.m */,
+				BC77C1781C203EE100C2EC92 /* BallSkimViewController.h */,
+				BC77C1791C203EE100C2EC92 /* BallSkimViewController.m */,
+				BC51249F1C1FA39B006EEBBE /* Amuse */,
+				BC51248C1C1F9F77006EEBBE /* BallAmuseViewController.h */,
+				BC51248D1C1F9F77006EEBBE /* BallAmuseViewController.m */,
+				BC5124F31C202D44006EEBBE /* FeiJiViewController.h */,
+				BC5124F41C202D44006EEBBE /* FeiJiViewController.m */,
+				BC4C3BCA1C210638006E02D9 /* UIView+Common.h */,
+				BC4C3BCB1C210638006E02D9 /* UIView+Common.m */,
+				BC5124F61C202D58006EEBBE /* DIShuViewController.h */,
+				BC5124F71C202D58006EEBBE /* DIShuViewController.m */,
+				BC5124F91C202D66006EEBBE /* PinTuViewController.h */,
+				BC5124FA1C202D66006EEBBE /* PinTuViewController.m */,
+				BC5124951C1FA251006EEBBE /* images */,
+				BC5124931C1FA1AB006EEBBE /* back.jpg */,
+				BC51248F1C1FA01E006EEBBE /* nba4.png */,
+				BC5124911C1FA0FC006EEBBE /* nbadaohang.png */,
 				BC5124561C1F9EE4006EEBBE /* Main.storyboard */,
 				BC5124591C1F9EE4006EEBBE /* Assets.xcassets */,
 				BC51245B1C1F9EE4006EEBBE /* LaunchScreen.storyboard */,
@@ -140,6 +367,136 @@
 			path = NBABattleUITests;
 			sourceTree = "<group>";
 		};
+		BC5124951C1FA251006EEBBE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BC4C3AF91C20F2F6006E02D9 /* lanqiu.png */,
+				BC4C3AF71C20F25C006E02D9 /* ball.png */,
+				BC4C3AF51C20F0E1006E02D9 /* 点击效果.png */,
+				BC4C3AF31C20F09E006E02D9 /* 点击效果@2x.png */,
+				BC77C1D11C20630200C2EC92 /* kebi24.jpg */,
+				BC77C1CB1C205D2E00C2EC92 /* myGirl.jpg */,
+				BC77C1CF1C2061AB00C2EC92 /* kebi.jpg */,
+				BC77C1CD1C205D3700C2EC92 /* 2_6.jpg */,
+				BC77C1211C203B3100C2EC92 /* 艾弗森(280x420) */,
+				BC5124EC1C200FBE006EEBBE /* nba7.png */,
+				BC5124E81C20073D006EEBBE /* nba5.png */,
+				BC5124EA1C2009FB006EEBBE /* nba6.png */,
+				BC77C1C71C204D4A00C2EC92 /* nba8.png */,
+				BC77C1C91C2050AB00C2EC92 /* nba9.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		BC51249C1C1FA37F006EEBBE /* Game */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		BC51249D1C1FA38D006EEBBE /* News */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		BC51249E1C1FA392006EEBBE /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+		BC51249F1C1FA39B006EEBBE /* Amuse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Amuse;
+			sourceTree = "<group>";
+		};
+		BC77C1211C203B3100C2EC92 /* 艾弗森(280x420) */ = {
+			isa = PBXGroup;
+			children = (
+				BC77C17B1C20470200C2EC92 /* 科比 */,
+				BC77C19C1C204B5400C2EC92 /* 乔丹 */,
+				BC77C1381C203CCF00C2EC92 /* 优美风景.plist */,
+				BC77C1221C203B3100C2EC92 /* 艾弗森01.png */,
+				BC5124F11C20276F006EEBBE /* 艾弗森02.png */,
+				BC77C1231C203B3100C2EC92 /* 艾弗森03.png */,
+				BC77C1241C203B3100C2EC92 /* 艾弗森04.png */,
+				BC77C1251C203B3100C2EC92 /* 艾弗森05.png */,
+				BC77C1261C203B3100C2EC92 /* 艾弗森06.png */,
+				BC77C1271C203B3100C2EC92 /* 艾弗森07.png */,
+				BC77C1281C203B3100C2EC92 /* 艾弗森08.png */,
+				BC77C1291C203B3100C2EC92 /* 艾弗森09.png */,
+				BC77C12A1C203B3100C2EC92 /* 艾弗森10.png */,
+			);
+			path = "艾弗森(280x420)";
+			sourceTree = "<group>";
+		};
+		BC77C17B1C20470200C2EC92 /* 科比 */ = {
+			isa = PBXGroup;
+			children = (
+				BC77C19A1C20479900C2EC92 /* 名车荟萃.plist */,
+				BC77C17C1C20470200C2EC92 /* 科比01.png */,
+				BC77C17D1C20470200C2EC92 /* 科比02.png */,
+				BC77C17E1C20470200C2EC92 /* 科比03.png */,
+				BC77C17F1C20470200C2EC92 /* 科比04.png */,
+				BC77C1801C20470200C2EC92 /* 科比05.png */,
+				BC77C1811C20470200C2EC92 /* 科比06.png */,
+				BC77C1821C20470200C2EC92 /* 科比07.png */,
+				BC77C1831C20470200C2EC92 /* 科比08.png */,
+				BC77C1841C20470200C2EC92 /* 科比09.png */,
+				BC77C1851C20470200C2EC92 /* 科比10.png */,
+				BC77C1861C20470200C2EC92 /* 科比11.png */,
+				BC77C1871C20470200C2EC92 /* 科比12.png */,
+				BC77C1881C20470200C2EC92 /* 科比13.png */,
+				BC77C1891C20470200C2EC92 /* 科比14.png */,
+				BC77C18A1C20470200C2EC92 /* 科比15.png */,
+			);
+			name = "科比";
+			path = "../科比";
+			sourceTree = "<group>";
+		};
+		BC77C19C1C204B5400C2EC92 /* 乔丹 */ = {
+			isa = PBXGroup;
+			children = (
+				BC77C1C51C204B7100C2EC92 /* 人物写真.plist */,
+				BC77C19D1C204B5400C2EC92 /* 乔丹01.png */,
+				BC77C19E1C204B5400C2EC92 /* 乔丹02.png */,
+				BC77C19F1C204B5400C2EC92 /* 乔丹03.png */,
+				BC77C1A01C204B5400C2EC92 /* 乔丹04.png */,
+				BC77C1A11C204B5400C2EC92 /* 乔丹05.png */,
+				BC77C1A21C204B5400C2EC92 /* 乔丹06.png */,
+				BC77C1A31C204B5400C2EC92 /* 乔丹07.png */,
+				BC77C1A41C204B5400C2EC92 /* 乔丹08.png */,
+				BC77C1A51C204B5400C2EC92 /* 乔丹09.png */,
+				BC77C1A61C204B5400C2EC92 /* 乔丹10.png */,
+				BC77C1A71C204B5400C2EC92 /* 乔丹11.png */,
+				BC77C1A81C204B5400C2EC92 /* 乔丹12.png */,
+				BC77C1A91C204B5400C2EC92 /* 乔丹13.png */,
+				BC77C1AA1C204B5400C2EC92 /* 乔丹14.png */,
+				BC77C1AB1C204B5400C2EC92 /* 乔丹15.png */,
+				BC77C1AC1C204B5400C2EC92 /* 乔丹16.png */,
+				BC77C1AD1C204B5400C2EC92 /* 乔丹17.png */,
+				BC77C1AE1C204B5400C2EC92 /* 乔丹18.png */,
+				BC77C1AF1C204B5400C2EC92 /* 乔丹19.png */,
+				BC77C1B01C204B5400C2EC92 /* 乔丹20.png */,
+			);
+			name = "乔丹";
+			path = "../乔丹";
+			sourceTree = "<group>";
+		};
+		C2BB5F341D8C7D8CBBCF6F98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5C31D4046E63A7B5E83E726 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +504,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC5124771C1F9EE4006EEBBE /* Build configuration list for PBXNativeTarget "NBABattle" */;
 			buildPhases = (
+				6F9A61FE80C465938DF1D15D /* Check Pods Manifest.lock */,
 				BC5124461C1F9EE4006EEBBE /* Sources */,
 				BC5124471C1F9EE4006EEBBE /* Frameworks */,
 				BC5124481C1F9EE4006EEBBE /* Resources */,
+				5960BBF72A1F3BFBC6D25ABE /* Embed Pods Frameworks */,
+				9A2C90855938CD65171659A2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +603,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4C3AF41C20F09E006E02D9 /* 点击效果@2x.png in Resources */,
+				BC77C18C1C20470200C2EC92 /* 科比02.png in Resources */,
+				BC4C3AF81C20F25C006E02D9 /* ball.png in Resources */,
+				BC77C19B1C20479900C2EC92 /* 名车荟萃.plist in Resources */,
+				BC77C1BB1C204B5400C2EC92 /* 乔丹11.png in Resources */,
+				BC77C1C01C204B5400C2EC92 /* 乔丹16.png in Resources */,
+				BC5124901C1FA01E006EEBBE /* nba4.png in Resources */,
 				BC51245D1C1F9EE4006EEBBE /* LaunchScreen.storyboard in Resources */,
+				BC77C1961C20470200C2EC92 /* 科比12.png in Resources */,
+				BC77C1BA1C204B5400C2EC92 /* 乔丹10.png in Resources */,
+				BC77C1311C203B3100C2EC92 /* 艾弗森08.png in Resources */,
+				BC77C1911C20470200C2EC92 /* 科比07.png in Resources */,
+				BC77C18E1C20470200C2EC92 /* 科比04.png in Resources */,
+				BC77C1CA1C2050AB00C2EC92 /* nba9.png in Resources */,
+				BC5124ED1C200FBF006EEBBE /* nba7.png in Resources */,
+				BC77C1CE1C205D3700C2EC92 /* 2_6.jpg in Resources */,
+				BC77C1BE1C204B5400C2EC92 /* 乔丹14.png in Resources */,
+				BC77C1D21C20630200C2EC92 /* kebi24.jpg in Resources */,
+				BC77C1BC1C204B5400C2EC92 /* 乔丹12.png in Resources */,
+				BC5124921C1FA0FC006EEBBE /* nbadaohang.png in Resources */,
+				BC77C18D1C20470200C2EC92 /* 科比03.png in Resources */,
+				BC77C1B91C204B5400C2EC92 /* 乔丹09.png in Resources */,
+				BC5124E91C20073D006EEBBE /* nba5.png in Resources */,
+				BC77C1B21C204B5400C2EC92 /* 乔丹02.png in Resources */,
+				BC77C1321C203B3100C2EC92 /* 艾弗森09.png in Resources */,
 				BC51245A1C1F9EE4006EEBBE /* Assets.xcassets in Resources */,
+				BC77C1C81C204D4A00C2EC92 /* nba8.png in Resources */,
+				BC77C1971C20470200C2EC92 /* 科比13.png in Resources */,
+				BC4C3AFA1C20F2F7006E02D9 /* lanqiu.png in Resources */,
+				BC77C1301C203B3100C2EC92 /* 艾弗森07.png in Resources */,
+				BC77C1D01C2061AC00C2EC92 /* kebi.jpg in Resources */,
+				BC77C1901C20470200C2EC92 /* 科比06.png in Resources */,
+				BC77C12F1C203B3100C2EC92 /* 艾弗森06.png in Resources */,
+				BC77C18B1C20470200C2EC92 /* 科比01.png in Resources */,
+				BC77C1C41C204B5400C2EC92 /* 乔丹20.png in Resources */,
+				BC77C12D1C203B3100C2EC92 /* 艾弗森04.png in Resources */,
+				BC77C12C1C203B3100C2EC92 /* 艾弗森03.png in Resources */,
+				BC5124EB1C2009FB006EEBBE /* nba6.png in Resources */,
+				BC77C1C21C204B5400C2EC92 /* 乔丹18.png in Resources */,
+				BC77C1931C20470200C2EC92 /* 科比09.png in Resources */,
+				BC77C1BF1C204B5400C2EC92 /* 乔丹15.png in Resources */,
+				BC5124941C1FA1AB006EEBBE /* back.jpg in Resources */,
+				BC77C1C11C204B5400C2EC92 /* 乔丹17.png in Resources */,
+				BC77C1331C203B3100C2EC92 /* 艾弗森10.png in Resources */,
+				BC77C12E1C203B3100C2EC92 /* 艾弗森05.png in Resources */,
+				BC77C1991C20470200C2EC92 /* 科比15.png in Resources */,
+				BC77C1B81C204B5400C2EC92 /* 乔丹08.png in Resources */,
+				BC77C1CC1C205D2E00C2EC92 /* myGirl.jpg in Resources */,
+				BC77C18F1C20470200C2EC92 /* 科比05.png in Resources */,
+				BC77C1B31C204B5400C2EC92 /* 乔丹03.png in Resources */,
 				BC5124581C1F9EE4006EEBBE /* Main.storyboard in Resources */,
+				BC77C1C31C204B5400C2EC92 /* 乔丹19.png in Resources */,
+				BC77C1941C20470200C2EC92 /* 科比10.png in Resources */,
+				BC4C3AF61C20F0E2006E02D9 /* 点击效果.png in Resources */,
+				BC77C1951C20470200C2EC92 /* 科比11.png in Resources */,
+				BC77C1921C20470200C2EC92 /* 科比08.png in Resources */,
+				BC77C1BD1C204B5400C2EC92 /* 乔丹13.png in Resources */,
+				BC77C1C61C204B7100C2EC92 /* 人物写真.plist in Resources */,
+				BC77C1B11C204B5400C2EC92 /* 乔丹01.png in Resources */,
+				BC77C12B1C203B3100C2EC92 /* 艾弗森01.png in Resources */,
+				BC77C1B51C204B5400C2EC92 /* 乔丹05.png in Resources */,
+				BC77C1B41C204B5400C2EC92 /* 乔丹04.png in Resources */,
+				BC77C1B61C204B5400C2EC92 /* 乔丹06.png in Resources */,
+				BC77C1981C20470200C2EC92 /* 科比14.png in Resources */,
+				BC5124F21C20276F006EEBBE /* 艾弗森02.png in Resources */,
+				BC77C1B71C204B5400C2EC92 /* 乔丹07.png in Resources */,
+				BC77C1581C203CCF00C2EC92 /* 优美风景.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +689,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5960BBF72A1F3BFBC6D25ABE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F9A61FE80C465938DF1D15D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A2C90855938CD65171659A2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC5124461C1F9EE4006EEBBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5124821C1F9F28006EEBBE /* BallBaseViewController.m in Sources */,
+				BC77C17A1C203EE200C2EC92 /* BallSkimViewController.m in Sources */,
+				BC51248E1C1F9F77006EEBBE /* BallAmuseViewController.m in Sources */,
 				BC5124551C1F9EE4006EEBBE /* ViewController.m in Sources */,
+				BC5124F81C202D58006EEBBE /* DIShuViewController.m in Sources */,
+				BC51249B1C1FA379006EEBBE /* BallNewsCell.m in Sources */,
+				BCB0A78D1C33C012006E1252 /* HGGGTableViewCell.m in Sources */,
+				BC5124FB1C202D66006EEBBE /* PinTuViewController.m in Sources */,
 				BC5124521C1F9EE4006EEBBE /* AppDelegate.m in Sources */,
+				BC5124851C1F9F37006EEBBE /* BallGameViewController.m in Sources */,
+				BC77C1361C203B6400C2EC92 /* BallBasePicViewController.m in Sources */,
+				BC5124F51C202D44006EEBBE /* FeiJiViewController.m in Sources */,
+				BC51248B1C1F9F60006EEBBE /* BallPictureViewController.m in Sources */,
+				BC5124981C1FA35C006EEBBE /* BallNewsModel.m in Sources */,
+				BC5124881C1F9F47006EEBBE /* BallNewsViewController.m in Sources */,
+				BC4C3BCC1C210638006E02D9 /* UIView+Common.m in Sources */,
+				BC5124F01C2015D9006EEBBE /* BallSubjectViewController.m in Sources */,
 				BC51244F1C1F9EE4006EEBBE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +898,7 @@
 		};
 		BC5124781C1F9EE4006EEBBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A6CDD5B9B9CB50A52C70420 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NBABattle/Info.plist;
@@ -422,6 +910,7 @@
 		};
 		BC5124791C1F9EE4006EEBBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17E180EF8DE9A4497659569 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NBABattle/Info.plist;
@@ -498,6 +987,7 @@
 				BC5124791C1F9EE4006EEBBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC51247A1C1F9EE4006EEBBE /* Build configuration list for PBXNativeTarget "NBABattleTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +996,7 @@
 				BC51247C1C1F9EE4006EEBBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC51247D1C1F9EE4006EEBBE /* Build configuration list for PBXNativeTarget "NBABattleUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +1005,7 @@
 				BC51247F1C1F9EE4006EEBBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

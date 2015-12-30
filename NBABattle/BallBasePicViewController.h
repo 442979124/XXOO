@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface BallBasePicViewController : UIViewController
+- (instancetype)initWithImageNames:(NSArray *)imageNames titleName:(NSString *)title;
 
 @end

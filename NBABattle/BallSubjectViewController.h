@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BallNewsViewController.h"
+#import "BallNewsModel.h"
 
 @interface BallSubjectViewController : UIViewController
+@property (nonatomic, strong)DataModel *model;
+
 
 @end
